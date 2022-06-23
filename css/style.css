@@ -1,0 +1,38 @@
+.box1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: all 500ms ease-in-out 0s;
+}
+.box2{
+    background-color: rgb(84, 215, 172);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 500ms;
+}
+.box3{
+    background-color: rgb(240, 77, 104);
+    width: 100px;
+    height: 100px;
+    transition: all 500ms ease-in-out 0s;
+}
+.text-style{
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+}
+.box1:hover{
+    transform: translate(10px);
+    box-shadow : 5px 5px 5px rgba(0,0,0,0.8)
+}
+.box2:hover{
+    transform : rotate(10deg);
+    box-shadow : 5px 5px 5px rgba(0,0,0,0.8)
+}
+.box3:hover{
+    transform: scale(1.2);
+    box-shadow : 5px 5px 5px rgba(0,0,0,0.8)
+}          
